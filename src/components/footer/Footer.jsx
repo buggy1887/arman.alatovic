@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.css";
-import { BsLinkedin, BsGithub, BsYoutube } from "react-icons/bs";
+import { BsLinkedin, BsGithub, BsFacebook } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -26,14 +26,22 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.linkedin.com/in/arman-alatovi%C4%87-3b7682210/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsLinkedin />
         </a>
-        <a href="https://github.com" target="_blank" rel="noreferrer">
+        <a href="https://github.com/buggy1887" target="_blank" rel="noreferrer">
           <BsGithub />
         </a>
-        <a href="https://youtube.com" target="_blank" rel="noreferrer">
-          <BsYoutube />
+        <a
+          href="https://www.facebook.com/arman.alatovic/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsFacebook />
         </a>
       </div>
       <div className="footer__copyright">
