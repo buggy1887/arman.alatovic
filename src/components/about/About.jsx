@@ -37,13 +37,13 @@ const About = () => {
             </div>
           </div>
           <p>
-            Hello there, I'm a hobby web deevloper. I'm currently working on my
-            personal website. I'm a self-taught web developer with a passion for
-            learning new things. My previous experience includes working in
-            insurance companies, as well as playing music around my country. In
-            my previous roles I've learned to work with a variety VIP clients,
-            and trying to implement LEAN principles. Lately I've developed an
-            interest towards SCRUM and I'm currently learning how to use it.
+            Hello there, I'm a hobby web deevloper. I'm a self-taught web
+            developer with a passion for learning new things. My previous
+            experience includes working in insurance companies, as well as
+            playing music around my country. In my previous roles I've learned
+            to work with a variety VIP clients, and trying to implement LEAN
+            principles. Lately I've developed an interest towards SCRUM and I'm
+            currently learning everything about it.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

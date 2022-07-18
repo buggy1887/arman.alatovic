@@ -9,7 +9,7 @@ const Experience = () => {
       <h2>My Experience</h2>
       <div className="container experience__container">
         <div className="experinece__frontend">
-          <h3>Frontend developement</h3>
+          <h3>Web developement</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__deteails-icon" />
@@ -28,14 +28,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__deteails-icon" />
               <div>
-                <h4>Bootstrap</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__deteails-icon" />
-              <div>
-                <h4>Tailwind</h4>
+                <h4>JavaScript</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -49,30 +42,8 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__deteails-icon" />
               <div>
-                <h4>JavaScript</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
-          </div>
-        </div>
-
-        {/*==========================begining of backend=====================*/}
-
-        <div className="experinece__backend">
-          <h3>Backend developement</h3>
-          <div className="experience__content">
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__deteails-icon" />
-              <div>
                 <h4>NodeJS</h4>
-                <small className="text-light">Intermediat</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="experience__deteails-icon" />
-              <div>
-                <h4>MongoDB</h4>
-                <small className="text-light">Basic</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
@@ -82,18 +53,47 @@ const Experience = () => {
                 <small className="text-light">Basic</small>
               </div>
             </article>
+          </div>
+        </div>
+
+        {/*==========================begining of backend=====================*/}
+
+        <div className="experinece__backend">
+          <h3>Other Skills</h3>
+          <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className="experience__deteails-icon" />
               <div>
-                <h4>MySQL</h4>
-                <small className="text-light">Basic</small>
+                <h4>SCRUM Methodology</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__deteails-icon" />
               <div>
-                <h4>GraphQL</h4>
-                <small className="text-light">Basic</small>
+                <h4>Agile & LEAN</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__deteails-icon" />
+              <div>
+                <h4>Sales & Presentation</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__deteails-icon" />
+              <div>
+                <h4>Management</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__deteails-icon" />
+              <div>
+                <h4>Adaptability</h4>
+                <small className="text-light">High</small>
               </div>
             </article>
           </div>
